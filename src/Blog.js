@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./App.css";
 import img1 from "./assets/OldRallyLogo.jpg";
 import img2 from "./assets/montecarlo-1911.jpg";
 import img3 from "./assets/grupo-b-banner.jpg";
@@ -47,19 +47,19 @@ function Blog() {
             <img alt="Audi car with a the logo of OldRally" src={img1} />
             <ul>
               <li>
-                <a href="index.html">Inicio</a>
+                <a href="index.js">Inicio</a>
               </li>
               <li>
-                <a href="blog.html">Blog</a>
+                <a href="blog.js">Blog</a>
               </li>
               <li>
-                <a href="directori.html">Grupos</a>
+                <a href="directori.js">Grupos</a>
               </li>
               <li>
-                <a href="about.html">Nosotros</a>
+                <a href="about.js">Nosotros</a>
               </li>
               <li>
-                <a href="contact.html">Contacto</a>
+                <a href="contact.js">Contacto</a>
               </li>
             </ul>
             <button id="modo-toggle">🌙 / ☀️</button>
@@ -73,10 +73,10 @@ function Blog() {
               ×
             </a>
             <div className="overlay-content">
-              <a href="index.html">Inicio</a>
-              <a href="directori.html">Grupos</a>
-              <a href="about.html">Nosotros</a>
-              <a href="contact.html">Contacto</a>
+              <a href="index.js">Inicio</a>
+              <a href="directori.js">Grupos</a>
+              <a href="about.js">Nosotros</a>
+              <a href="contact.js">Contacto</a>
             </div>
           </div>
         </header>

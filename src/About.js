@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./App.css";
 import img1 from "./assets/marc.jpg";
 
 function About() {
@@ -18,19 +18,19 @@ function About() {
               />
               <ul>
                 <li>
-                  <a href="index.html">Inicio</a>
+                  <a href="index.js">Inicio</a>
                 </li>
                 <li>
-                  <a href="blog.html">Blog</a>
+                  <a href="blog.js">Blog</a>
                 </li>
                 <li>
-                  <a href="directori.html">Grupos</a>
+                  <a href="directori.js">Grupos</a>
                 </li>
                 <li>
-                  <a href="about.html">Nosotros</a>
+                  <a href="about.js">Nosotros</a>
                 </li>
                 <li>
-                  <a href="contact.html">Contacto</a>
+                  <a href="contact.js">Contacto</a>
                 </li>
               </ul>
               <button id="modo-toggle">🌙 / ☀️</button>
