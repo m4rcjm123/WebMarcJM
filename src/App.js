@@ -1,24 +1,35 @@
-import logo from './andres.jpg';
-import './App.css';
+import React from "react";
+import { Outlet, Link } from "react-router-dom";
 
+import Home from "./Home";
+import About from "./About";
+import Blog from "./Blog";
+import Contact from "./Contact";
+import Directori from "./Directori";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <nav className="main-nav">
+        <ul>
+          <li>
+            <Link to="/">Inicio</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/directori">Grupos</Link>
+          </li>
+          <li>
+            <Link to="/about">Nosotros</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contacto</Link>
+          </li>
+        </ul>
+      </nav>
+      <Outlet />
     </div>
   );
 }
