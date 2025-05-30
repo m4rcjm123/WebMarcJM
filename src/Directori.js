@@ -17,19 +17,19 @@ function Directori() {
               />
               <ul>
                 <li>
-                  <a href="index.js">Inicio</a>
+                  <a href="index">Inicio</a>
                 </li>
                 <li>
-                  <a href="blog.js">Blog</a>
+                  <a href="blog">Blog</a>
                 </li>
                 <li>
-                  <a href="directori.js">Grupos</a>
+                  <a href="directori">Grupos</a>
                 </li>
                 <li>
-                  <a href="about.js">Nosotros</a>
+                  <a href="about">Nosotros</a>
                 </li>
                 <li>
-                  <a href="contact.js">Contacto</a>
+                  <a href="contact">Contacto</a>
                 </li>
               </ul>
               <button id="modo-toggle">🌙 / ☀️</button>

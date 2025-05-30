@@ -73,10 +73,10 @@ function Blog() {
               ×
             </a>
             <div className="overlay-content">
-              <a href="index.js">Inicio</a>
-              <a href="directori.js">Grupos</a>
-              <a href="about.js">Nosotros</a>
-              <a href="contact.js">Contacto</a>
+              <a href="index">Inicio</a>
+              <a href="directori">Grupos</a>
+              <a href="about">Nosotros</a>
+              <a href="contact">Contacto</a>
             </div>
           </div>
         </header>
